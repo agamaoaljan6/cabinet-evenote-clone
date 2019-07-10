@@ -65,17 +65,20 @@ a {
 	}
 }
 
+.form-inputs {
+	margin-top: 5em;
+}
+
 header {
 	background: $tint;
 	position: fixed;
 	top: 0;
 	width: 100%;
-    padding: 1.75em ;
-    margin-bottom: 3em;
-	border-bottom: 8px solid $green;
+    padding: 1.75em;
+	border-bottom: 2px solid green;
 	.header_inner {
 		width: 80%;
-		margin: 0 auto;
+		margin: auto;
 		#logo {
 			display: inline-block;
 			width: 15rem;
@@ -99,6 +102,12 @@ header {
 		}
 	}
 }
+// TRouBLe
+.notice {
+	margin-top:2em;
+	
+}
+
 
 footer {
 	background: $dark_gray;

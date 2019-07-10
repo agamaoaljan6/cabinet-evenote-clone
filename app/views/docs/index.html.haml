@@ -7,7 +7,4 @@
                         %p.title= doc.title
                         %p.date= time_ago_in_words(doc.created_at)
                         %p.content= truncate(doc.content, length:50) # truncate displays the first 50 characters (length:50)
-        - else
-        %h2 Create Doc!
-        %p Start Creating Documents! 
-        %button=link_to "Create Doc", new_doc_path
+
