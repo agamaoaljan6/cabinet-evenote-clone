@@ -1,10 +1,10 @@
 #banner {
-	// background-image: url(image_path("welcome_banner_image.jpg"));
+	background-image: url(image_path("danielle-macinnes-IuLgi9PWETU-unsplash.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 500px;
+	min-height: 90vh;
 	display: table;
 	.banner_content {
 		display: table-cell;
@@ -41,12 +41,12 @@
 }
 
 #callouts {
-	// background-image: url(image_path("callout_background. jpg"));
+	background-image: url(image_path("dustin-lee-jLwVAUtLOAQ-unsplash.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	width: 100%;
-	min-height: 400px;
+	min-height: 90vh;
 	display: table;
 	.callout_inner {
 		display: table-cell;
@@ -54,9 +54,12 @@
 	}
 	.callout {
 		text-align: center;
-		width: 33.3333%;
-		padding: 1.5rem 2.5%;
-		float: left;
+		width: 50%;
+		padding-top: 2em;
+		margin-left: 18em;
+		color: white;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
 		h2 {
 			@include bold_font;
 			color: white;
@@ -69,13 +72,22 @@
 }
 
 #bottom_cta {
+	background-image: url(image_path("henry-co-X45GyIpjpZc-unsplash.jpg"));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	display: table;
 	text-align: center;
+	min-height: 90vh;
 	padding: 7.5rem 0;
 	h2 {
 		@include bold_font;
 		color: $dark_gray;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
 		font-size: 3rem;
-		margin: 0;
+		margin-top: 3em;
 	}
 	p {
 			font-size: 1.25rem;
