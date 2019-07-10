@@ -25,9 +25,10 @@ body {
 }
 
 .wrapper_with_padding {
-	width: 80%;
+    width: 80%;
+    text-align: center;
 	margin: 0 auto;
-	padding: 3.5rem 0;
+    padding: 3.5rem 0;
 }
 
 .clearfix:before, .clearfix:after {
